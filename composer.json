@@ -17,7 +17,7 @@
     "etsy/phan": "0.7",
     "phpmd/phpmd": "@stable"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
 	{
 		"name": "Kozlenko Vitaliy",

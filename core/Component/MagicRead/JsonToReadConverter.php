@@ -28,6 +28,10 @@ class JsonToReadConverter
     {
         $result = [];
         foreach ($this->mapping as $modelKeyName => $jsonKeyName) {
+			if (!isset($list[$jsonKeyName])){
+				continue;
+			}
+			
             $result[$modelKeyName] = $list[$jsonKeyName];
         }
 
