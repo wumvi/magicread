@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Wumvi\Component\Read;
+namespace Wumvi\Component\MagicRead;
 
 /**
  * Базовый класс моделей
