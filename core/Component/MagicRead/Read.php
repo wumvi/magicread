@@ -42,7 +42,7 @@ abstract class Read
      * Read constructor.
      * @param array $list
      */
-    public function __construct($list = [])
+    public function __construct(array $list = [])
     {
         $this->setElementsList($list);
     }
